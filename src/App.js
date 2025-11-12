@@ -8,7 +8,7 @@ import Price from "./components/Price";
 import Description from "./components/Description";
 
 function App() {
-  const [firstName, setfirstName] = useState("Ameni"); // var counter
+  const [firstName, setfirstName] = useState("Emna"); // var counter
 
   let { name, price, description, image } = product;
   return (
